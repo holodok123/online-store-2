@@ -1,0 +1,28 @@
+.btn-primary {
+    margin-right: 10px;
+}
+.bi {
+    margin-right: 4px;
+}
+
+
+.ho {
+    text-decoration: none;
+    color: black;
+}
+.T-shirts {
+    width: 350px;
+}
+.a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card {
+    margin-left: 2%;
+    margin-top: 1%;
+}
