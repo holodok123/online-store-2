@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>магазин</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand"><a class="a" href="https://holodok123.github.io/online-store/">Интернет-магазин</a></a>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Одежда
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Футболки и поло</button></li>
+                  <li><button class="dropdown-item" type="button">Топы и майки</button></li>
+                  <li><button class="dropdown-item" type="button">Толстовки и свитшоты</button></li>
+                  <li><button class="dropdown-item" type="button">Брюки</button></li>
+                  <li><button class="dropdown-item" type="button">Нижние бельё</button></li>
+                  <li><button class="dropdown-item" type="button">Джинсы</button></li>
+                  <li><button class="dropdown-item" type="button">Пиджаки и костюмы </button></li>
+                  <li><button class="dropdown-item" type="button">юбки</button></li>
+                  <li><button class="dropdown-item" type="button">Платья и сарафаны</button></li>
+                  <li><button class="dropdown-item" type="button">Блузы и рубашки</button></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Куртки
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Зимние</button></li>
+                  <li><button class="dropdown-item" type="button">Пальто</button></li>
+                  <li><button class="dropdown-item" type="button">Демисезонные</button></li>
+                  <li><button class="dropdown-item" type="button">Ветровки</button></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Обувь
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Балетки</button></li>
+                  <li><button class="dropdown-item" type="button">Босоножки</button></li>
+                  <li><button class="dropdown-item" type="button">Ботильоны</button></li>
+                  <li><button class="dropdown-item" type="button">Ботинки</button></li>
+                  <li><button class="dropdown-item" type="button">Казаки</button></li>
+                  <li><button class="dropdown-item" type="button">Резиновая обувь</button></li>
+                  <li><button class="dropdown-item" type="button">кросовки и кеды</button></li>
+                  <li><button class="dropdown-item" type="button">Сандали</button></li>
+                  <li><button class="dropdown-item" type="button">Сабо и мюли</button></li>
+                  <li><button class="dropdown-item" type="button">Сапоги</button></li>
+                  <li><button class="dropdown-item" type="button">Слипоны</button></li>
+                  <li><button class="dropdown-item" type="button">Туфли</button></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Акссесуары
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Часы</button></li>
+                  <li><button class="dropdown-item" type="button">Браслеты</button></li>
+                  <li><button class="dropdown-item" type="button">Цепочки</button></li>
+                  <li><button class="dropdown-item" type="button">Очки</button></li>
+                  <li><button class="dropdown-item" type="button">Мини сумки</button></li>
+                  <li><button class="dropdown-item" type="button">Сумки</button></li>
+                  <li><button class="dropdown-item" type="button">Рюкзаки</button></li>
+                  <li><button class="dropdown-item" type="button">Кошелки и визитки</button></li>
+                  <li><button class="dropdown-item" type="button">Зонты</button></li>
+                  <li><button class="dropdown-item" type="button">Брелки</button></li>
+                </ul>
+              </div>
+              <form class="d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-basket3-fill" viewBox="0 0 16 16">
+                    <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.468 15.426.943 9h14.114l-1.525 6.426a.75.75 0 0 1-.729.574H3.197a.75.75 0 0 1-.73-.574z"/>
+                  </svg>
+                <button type="button"  class="btn btn-primary">Корзина </button>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.dhresource.com/0x0/f2/albu/g8/M01/F0/28/rBVaV1xe0syAYtQeAADMSnVvjRQ345.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">футболка</h5>
+              <p class="card-text">футболка с дизайном волка. цена 2000 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.zr.ru/d/story/e7/919527/05_volkswagen_polo_sedan_18.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Volkswagen Polo</h5>
+              <p class="card-text"> машина Volkswagen Polo. цена 1,621 млн. руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnmBKJLvMknyoYcJkwA61P2zq7-zD1UgsaQ&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">поло</h5>
+              <p class="card-text">мужское чёрно-белое поло. цена 1000 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://kkaravaev.com/wa-data/public/shop/products/16/40/14016/images/23969/23969.1200.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">футболка для душнил</h5>
+              <p class="card-text">футболка с принтом "душнила". цена 800 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://static.insales-cdn.com/images/products/1/6237/438401117/PNHD_t-shirt_white_back.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">белая футболка</h5>
+              <p class="card-text">стандартная белая футболка. цена 900 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://files.gifts.ru/reviewer/tb/16/tu01b005_2_500.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">чёрная футболка</h5>
+              <p class="card-text">стандартная чёрная футболка. цена 900 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.casual-info.ru/upload/medialibrary/cbb/cbbc5cf7eb067b77a8c2e8b5ab40e0b1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">поло</h5>
+              <p class="card-text">женское поло. цена 1000 руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpuZjeghJLyZqWWqT8DfvfrVjJvQP6rD6RPA&usqp=CAU" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">голубое поло</h5>
+              <p class="card-text">сам Путин носил. цена 100 тыс. руб. </p>
+              <a href="#" class="btn btn-primary">добавить в корзину</a>
+            </div>
+          </div>
+        
+        
+    </main>
+    <hr>
+    <footer>
+        <div class="one footer">
+            <p>Доставка на следующий день
+                В Москве и 60 других крупных городах России вы получите свой заказ уже на следующий день! Более подробную информацию об условиях доставки в ваш город можно найти <a href="">здесь</a>.</p>
+        </div>
+        <br>
+        <div class="two footer">
+            <p>Примерка перед покупкой
+                Интернет-магазин Lamoda даёт возможность примерить одежду, обувь и другие товары перед оплатой заказа курьеру. Оплачивайте только то, что вам подошло и понравилось!</p>
+        </div>
+        <br>
+        <div class="three footer">
+            <p>Удобные способы оплаты
+                Вы можете оплатить покупки не только наличными, но и банковской картой. У всех курьеров Lamoda Express при себе есть терминал для оплаты картами.</p>
+        </div>
+    </footer>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
